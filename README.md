@@ -1,5 +1,8 @@
-![weather-app](https://user-images.githubusercontent.com/10329339/81182168-23765980-8fb6-11ea-8be9-464567cb0aa5.gif)
+# одностраничное приложение с погодой на Vue + Open Weather API
 
+## По умолчанию загружает погоду в Нижнем Тагиле
+
+![alt text](https://github.com/EgorGologuzov/weather-api/blob/master/1.png?raw=true)
 
 # vue-weather-app
 Weather app using Vue.js, OpenWeatherMap. [Demo](https://dogukanbatal.github.io/vue-weather-app/)
