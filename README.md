@@ -1,37 +1,19 @@
 # одностраничное приложение с погодой на Vue + Open Weather API
 
+GitHub Pages: [Demo]((https://egorgologuzov.github.io/weather-api/))
+
 ## По умолчанию загружает погоду в Нижнем Тагиле
 
-![alt text](https://github.com/EgorGologuzov/weather-api/blob/master/1.png?raw=true)
+![screen](/docs/screens/1.PNG)
 
-# vue-weather-app
-Weather app using Vue.js, OpenWeatherMap. [Demo](https://dogukanbatal.github.io/vue-weather-app/)
+## Подсказки формируются одним из эндпоинтов, предоставленных Open Weather
 
-## Project setup
-```
-npm install
-```
-### API Key
-- Create Api Key from [OpenWeatherMap](https://openweathermap.org). 
-- Enter the key on the line below in **src/store/store.js**
-```javascript
-apiKey: "YOUR_API_KEY"
-```
+![screen](/docs/screens/2.PNG)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Выберите подсказку или введите полное название города, чтобы получить результат
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![screen](/docs/screens/3.PNG)
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Open Weather API часто глючит, если не удастся загрузить данные, то будет это
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![screen](/docs/screens/4.PNG)
